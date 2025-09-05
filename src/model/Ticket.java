@@ -45,10 +45,10 @@ public class Ticket {
 	}
 
 	public String getEntryDate() {
-		return dataFormat.format(entryTime);
+		return dateFormat.format(entryTime);
 	}
 
-	public String getEntryTime() {
+	public String getEntryTimeToString() {
 		return timeFormat.format(entryTime);
 	}
 

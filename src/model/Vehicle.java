@@ -7,7 +7,7 @@ public abstract class Vehicle implements Payable{
 	private String brand;
 	private String model;
 	
-	public void setPlateNumber(String plateNUmber) {
+	public void setPlateNumber(String plateNumber) {
 		this.plateNumber = plateNumber;
 	}
 	

@@ -7,7 +7,6 @@ public class parkingSlot {
 	private SlotType type;
 	
 	public parkingSlot() {
-		
 	};
 	
 	public parkingSlot(int slotNumber, boolean isOccupied, Vehicle vehicle, SlotType type) {
